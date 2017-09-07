@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.css" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap-responsive.css.css" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Learning BootStrap</title>
+</head>
+<body>
+<!-- START header -->
+<header>
+    <nav class="navbar navbar-default ">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+<!-- END header -->
+<!-- START slider -->
+<section>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="../rescources/images/steam.png" alt="第一张">
+        </div>
+        <div class="item">
+            <img src="../rescources/images/Gfat.jpg" alt="第二张">
+        </div>
+        <div class="item">
+            <img src="../rescources/images/steam.png" alt="第三张">
+        </div>
+    </div>
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="prev">&rsaquo;</a>
+</div>
+</section>
+<!-- END slider -->
+<!-- START Container -->
+<section>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img class="img-rounded" src="../rescources/images/steam.png" alt="..." height="128" width="280">
+                <div class="caption">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="###">Cras justo odio</a></li>
+                        <li class="list-group-item"><a href="###">Dapibus ac facilisis in</a></li>
+                        <li class="list-group-item"><a href="###">Morbi leo risus</a></li>
+                        <li class="list-group-item"><a href="###">Porta ac consectetur ac</a></li>
+                        <li class="list-group-item"><a href="###">Vestibulum at eros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img class="img-rounded" src="../rescources/images/steam.png" alt="..." height="128" width="280">
+                <div class="caption">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="###">Cras justo odio</a></li>
+                        <li class="list-group-item"><a href="###">Dapibus ac facilisis in</a></li>
+                        <li class="list-group-item"><a href="###">Morbi leo risus</a></li>
+                        <li class="list-group-item"><a href="###">Porta ac consectetur ac</a></li>
+                        <li class="list-group-item"><a href="###">Vestibulum at eros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img class="img-rounded" src="../rescources/images/steam.png" alt="..." height="128" width="280">
+                <div class="caption">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="###">Cras justo odio</a></li>
+                        <li class="list-group-item"><a href="###">Dapibus ac facilisis in</a></li>
+                        <li class="list-group-item"><a href="###">Morbi leo risus</a></li>
+                        <li class="list-group-item"><a href="###">Porta ac consectetur ac</a></li>
+                        <li class="list-group-item"><a href="###">Vestibulum at eros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="caption">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="###">Cras justo odio</a><span class="navbar-right">new</span></li>
+                    <li class="list-group-item"><a href="###">Dapibus ac facilisis in</a><span class="navbar-right">new</span></li>
+                    <li class="list-group-item"><a href="###">Morbi leo risus</a><span class="navbar-right">new</span></li>
+                    <li class="list-group-item"><a href="###">Porta ac consectetur ac</a><span class="navbar-right">new</span></li>
+                    <li class="list-group-item"><a href="###">Vestibulum at eros</a><span class="navbar-right">new</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6" style="height: 226px">
+            <div class="panel panel-default">
+                <div class="panel-heading">Panel heading without title</div>
+                <div class="panel-body ">
+                        <div class="col-md-4">
+                           <a href="###"> <img class="img-rounded" src="../rescources/images/steam.png"
+                                               alt="..." height="64" width="140  "></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="###"> <img class="img-rounded" src="../rescources/images/steam.png"
+                                                alt="..." height="64" width="140  "></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="###"> <img class="img-rounded" src="../rescources/images/steam.png"
+                                                alt="..." height="64" width="140  "></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="###"> <img class="img-rounded" src="../rescources/images/steam.png"
+                                                alt="..." height="64" width="140  "></a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END Container -->
+<!-- START Footer -->
+<footer>
+<p>© 2016 Company, Inc</p>
+</footer>
+<!-- End Footer -->
+</body>
+</html>
