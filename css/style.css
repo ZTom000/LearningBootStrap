@@ -1,0 +1,217 @@
+/* -------------------------------------- */
+/*|                 INDEX                |*/
+/*|              1.全局样式              |*/
+/*|              2.页头样式              |*/
+/*|             3.导航栏样式             |*/
+/*|              4.轮播样式              |*/
+/*|              5.主体样式              |*/
+/*|              6.页脚样式              |*/
+/*|              7.背景样式              |*/
+/* -------------------------------------- */
+
+/*  1.全局样式  */
+a {
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+}
+.a{
+    color: #0D9DDC;
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+a:after{
+    text-decoration: none;
+    outline: none;
+}
+html,body   {
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑","HelveticaNeue-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#ffffff;
+    line-height:1;
+}
+h5{
+    color:#000000;
+}
+aside{
+    position:relative;
+    margin: 0;
+    height: 32px;
+    max-width: 100% ;
+}
+section{
+    margin: 0 auto;
+    width: 960px;
+}
+header {
+    height: 100%;
+    width:100%;
+    position:relative;
+    z-index:100;
+    margin:0 auto;
+    padding-bottom: 32px;
+}
+hr{
+    clear:both;
+    margin: 0;
+}
+.center-warp{
+    width: 960px;
+    margin: 0 auto;
+}
+/*  2.页头样式  */
+.top-aside{
+    max-width: 960px;
+    height: 22px;
+    margin: 0 auto;
+    padding: 5px 0;
+
+
+}
+.social_icons {
+    list-style-type:none;
+    list-style-image:none;
+    padding-top:4px;
+}
+.top-aside .social_icons a {
+    padding-left: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background: url(http://std.51play.com/51play_v9/images/global/bg-toolbar-social-icons.png) left top no-repeat !important;
+    padding-bottom: 0;
+}
+.top-aside .social_icons a.twitter {
+    background-position: 0 -15px !important;
+}
+.top-aside a,
+.top-aside p{
+    font-size: 11px;
+    color: #FFF;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.social_icons a {
+    padding-top:0px;
+    padding-bottom:10px;
+/*    background:url(../img/bg-ui-gradient.png) 0 0 no-repeat;*/
+}
+.top-aside .social_icons a.rss {
+    background-position: 0 4px !important;
+}
+/*  3.导航栏样式  */
+.navbar-customer{
+    width:100%;
+    position:relative;
+    z-index:100;
+    margin:0 auto;
+    padding:32px 0;
+    background:#FFF url(../img/bg-ui-gradient.png) left top repeat-x;
+}
+.navbar-collapse-customer{
+    float: right;
+}
+.slide-customer{
+    width:100%;
+    background:#FFF url(../img/bg-banner-blue.png) left top repeat-x;
+}
+.container-fluid-customer{
+}
+/*  4.轮播样式    */
+#myCarousel{
+    width: 960px;
+    margin: 0 auto;
+}
+.carousel-control-customer{
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0) 0,rgba(0,0,0,.0001) 100%)!important;
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0) 0,rgba(0,0,0,.0001) 100%)!important;
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0)),to(rgba(0,0,0,.0001)))!important;
+    background-image: linear-gradient(to right,rgba(0,0,0,.0) 0,rgba(0,0,0,.0001) 100%)!important;
+}
+/*  5.主体样式  */
+.thumbnail-customer{
+    box-sizing: none;
+    border: 0px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.0);
+    box-shadow: 0 1px 2px rgba(0,0,0,.0);
+}
+.img-frame {
+background:url(../img/img-frames.png);
+margin-bottom: 20px;
+width: 100%;
+overflow: hidden;
+height: auto;
+background-position: 0px -1486px;
+}
+.img-frame .img{
+height: 128px;
+width: 280px;
+}
+.img-frame img {
+margin:10px 0 0 10px;
+}
+.caption h5{
+text-align: left;
+}
+/*  6.页脚样式  */
+.footer-customer,
+.copyright-customer{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.list-group-customer,
+.list-group-item-customer{
+    filter: alpha(opacity=40);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    text-color: #ffffff;
+    box-sizing: none;
+    border: 0px;
+     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.0);
+    box-shadow: 0 1px 2px rgba(0,0,0,.0)
+}
+.footer-information-customer{
+    float: right;
+}
+.footer-copyright-customer{
+    float: left;
+}
+a .copyright-color{
+color: #ffffff;
+}
+/*  7.背景样式   */
+aside,
+.slide-customer,
+footer {
+    background-color: #0D5292;
+    background-image: url(../resources/img/bg-banner-blue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#0D9DDC), to(#0D5292));
+    background: -webkit-radial-gradient(circle, #0D9DDC, #0D5292);
+    background: -moz-radial-gradient(circle, #0D9DDC, #0D5292);
+    background: -ms-radial-gradient(circle, #0D9DDC, #0D5292);
+}
+.bg-overlays{
+    max-width: 100%;
+    background:url(../img/banner-abstract.png) center center no-repeat;
+}
+.shadow-top{
+    z-index: 100;
+    height: 40px;
+    background:url(../img/shadow-2.png) top center no-repeat;
+}
+.hr {
+    clear:both;
+    border:0;
+    height:50px;
+    width:100%;
+    background: url(http://std.51play.com/51play_v9/images/global/bg-hr-dotted.png) 0 50% repeat-x;
+}
+.hr-dotted {
+    background: url(http://std.51play.com/51play_v9/images/global/bg-hr-dotted.png) 0 50% repeat-x;
+}

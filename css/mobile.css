@@ -1,0 +1,126 @@
+@media (max-width: 960px){
+    header,section,footer{
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-collapse-customer{
+        float: right;
+    }
+}
+@media (max-width: 959px){
+    body{
+        overflow-x:hidden;
+    }
+    .navbar-collapse-customer{
+        float: right;
+    }
+    header,section,footer{
+        text-align: center;
+        width: 100%;
+    }
+    .carousel .slide{
+        width: 100%;
+    }
+    .center-warp{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-customer{
+        width: 100%;
+    }
+    .footer-information-customer{
+        float: none !important;
+        width: 100%;
+    }
+
+    .footer-copyright-customer{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    body{
+        overflow-x:hidden;
+    }
+
+    header,section,footer{
+        text-align: center;
+        width: 100%;
+    }
+    .center-warp{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navbar-collapse-customer{
+        float: right;
+    }
+    .footer-customer,
+    .copyright-customer,
+    #myCarousel{
+        text-align: center;
+        width: 100%;
+    }
+    .footer-information-customer{
+        float: none !important;
+        width: 100%;
+    }
+
+    .footer-copyright-customer{
+        width: 100%;
+    }
+
+}
+@media (max-width: 480px){
+    body{
+        overflow-x:hidden;
+    }
+    .navbar-collapse-customer{
+        float: none;
+    }
+    header,section,footer{
+        text-align: center;
+        width: 100%;
+    }
+    .carousel .slide{
+        width: 100%;
+    }
+   .center-warp{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-customer{
+        width: 100%;
+    }
+    .footer-information-customer{
+        float: none !important;
+        width: 100%;
+    }
+
+    .footer-copyright-customer{
+        width: 100%;
+    }
+}
+@media (max-width: 320px){
+    header,section,footer{
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-collapse-customer{
+        float: none;
+    }
+    .footer-information-customer{
+        float: none !important;
+        width: 100%;
+    }
+    .center-warp{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-copyright-customer{
+        float: none !important;
+        width: 100%;
+    }
+
+    .footer-customer{
+        width: 100%;
+    }
+}
