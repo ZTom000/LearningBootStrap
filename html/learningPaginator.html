@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <!-- Bootstrap核心CSS文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件(一般不用引入) -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- jQuery文件，在bootstrap.min.js之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Bootstrap核心JavaScript文件 -->
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- 使得分页导航能够正确的使用 -->
+    <script type="text/javascript" src="js/bootstrap-paginator.js"></script>
+
+ <!--   <script type="text/javascript">
+        function action(id)
+        {
+            var totalPage = 20;//分页的总页数
+            var movePage = 0;
+            var newRelativePage = document.getElementById(id).name;
+            var newAbsolutePage = document.getElementById(id).innerHTML;
+            var array = new Array(4,3,2,1,0);
+            if(newRelativePage == "previous" )
+            {
+                for(var i = 1;i <=5;i ++)
+                {
+                    document.getElementById('li'+i).innerHTML = "<a href=\"#\" id=\"page"+i+"\" name=\""+i+"\" onclick=\"action(this.id);\">"+i+"</a>";
+                }
+            }else if (newRelativePage == "next")
+            {
+                for(var i = 1;i <=5;i ++)
+                {
+                    var resultPage = parseInt(totalPage) - parseInt(array[i-1]);
+                    document.getElementById('li'+i).innerHTML = "<a href=\"#\" id=\"page"+resultPage+"\" name=\""+resultPage+"\" onclick=\"action(this.id);\">"+resultPage+"</a>";
+                }
+            }else
+            {
+                if(newRelativePage == 1)
+                {
+
+                }else
+                {
+                    movePage = newRelativePage - 1;
+                    for(var i = 1;i <=5;i ++)
+                    {
+
+                        var resultPage =  parseInt(movePage) + parseInt(i);
+                        if(resultPage <= 20)
+                        {
+                            document.getElementById('li'+i).innerHTML = "<a href=\"#\" id=\"page"+resultPage+"\" name=\""+resultPage+"\" onclick=\"action(this.id);\">"+resultPage+"</a>";
+                        }else
+                        {
+                            document.getElementById('li'+i).innerHTML = "<a href=\"#\" id=\"page"+resultPage+"\" name=\""+resultPage+"\" onclick=\"action(this.id);\""+" class=\"btn btn-link disabled\">"+resultPage+"</a>";
+                        }
+
+                    }
+
+
+                }
+            };
+        }
+    </script>-->
+</head>
+<body>
+<!--<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul class="pagination pagination-lg">
+                    <li>
+                        <a href="#" aria-label="Previous" name="previous" id="previous" onclick="action(this.id);">
+                            <span aria-hidden="true">«</span>
+                        </a>
+                    </li>
+                    <li id="li1">
+                        <a href="#" id="page1" name="1" onclick="action(this.id);">1</a>
+                    </li>
+                    <li id="li2">
+                        <a href="#" id="page2" name="2" onclick="action(this.id);">2</a>
+                    </li>
+                    <li id="li3">
+                        <a href="#" id="page3" name="3" onclick="action(this.id);">3</a>
+                    </li>
+                    <li id="li4">
+                        <a href="#" id="page4" name="4" onclick="action(this.id);">4</a>
+                    </li>
+                    <li id="li5">
+                        <a href="#" id="page5" name="5" onclick="action(this.id);">5</a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Next" name="next" id="next" onclick="action(this.id);">
+                            <span aria-hidden="true">»</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>-->
+
+</body>
+</html>
+</html>

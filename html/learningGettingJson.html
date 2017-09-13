@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>getJSON获取数据</title>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            var url = "../js/testdata.json";
+    /*            $.getJSON(url,function(data){
+                    var $jsontip = $(".jsonTip");
+                    var strHtml = "";//存储数据的变量
+                    $jsontip.empty();//清空内容
+                    $.each(data,function(infoIndex,info){
+                        if(infoIndex == "navbar") {
+                            strHtml += "<ul>";
+                            $.each(info, function (titleIndex, title) {
+                                strHtml += "<li>" + title["detail"] + "</li>";
+                                if(title["dropmenu-group"] != null){
+                                    strHtml += "<ul>";
+                                $.each(title["dropmenu-group"],function (dropmenuIndex, dropmenu) {
+                                        strHtml += "<li>" + dropmenu["detail"] + "</li>";
+                                    })
+                                    strHtml += "</ul>"
+                                }
+                            })
+                          //  strHtml += "</ul>";
+                        }
+                    })
+                    $jsontip.html(strHtml);//显示处理后的数据
+                })*/
+            $.getJSON(url,function (data) {
+                $.each($.parseJSON(json),function (idx,guy) {
+                    alert("!");
+                })
+            })
+            })
+    </script>
+</head>
+<body>
+<div id="divframe">
+    <div class="jsonTip"> </div>
+</div>
+</body>
+</html>

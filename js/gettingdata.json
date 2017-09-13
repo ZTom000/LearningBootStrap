@@ -1,0 +1,256 @@
+{
+"navbar":[
+    {
+      "id": "001",
+      "detail": "首页",
+      "url":"#",
+      "dropmenu-group": null
+    },
+    {
+      "id": "002",
+      "detail": "产品介绍",
+      "url":"#",
+      "dropmenu-group": [
+        {
+          "id":"005",
+          "group":"1",
+          "detail":"游戏1",
+          "url":"#"
+        },
+        {
+          "id":"006",
+          "group":"1",
+          "detail":"游戏2",
+          "url":"#"
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "detail": "加入我们",
+      "url":"#",
+      "dropmenu-group": null
+    },
+    {
+      "id": "004",
+      "detail": "关于我们",
+      "url":"#",
+      "dropmenu-group": null
+    },
+  {
+    "id": "006",
+    "detail": "商务活动",
+    "url":"#",
+    "dropmenu-group": null
+  }
+  ],
+"slider":[
+  {
+    "slider_id": "s001",
+    "src": "../rescources/images/banner-1.png",
+    "url":"#"
+  },
+  {
+    "slider_id": "s002",
+    "src": "../rescources/images/banner-2.png",
+    "url":"#"
+  },
+  {
+    "slider_id": "s003",
+    "src": "../rescources/images/banner-3.png",
+    "url":"#"
+  },
+  {
+    "slider_id": "s004",
+    "src": "../rescources/images/banner-4.png",
+    "url":"#"
+  }
+],
+"thumbnails":[
+  {
+    "thumbnail_id": "t001",
+    "thumbnail_img": "../rescources/images/thumbnails-1.png",
+    "thumbnail_url": "#",
+    "thumbnail_header": "Thumbnail label 1",
+    "thumbnail_detail": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non miporta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+  },
+  {
+    "thumbnail_id": "t002",
+    "thumbnail_img": "../rescources/images/thumbnails-2.png",
+    "thumbnail_url": "#",
+    "thumbnail_header": "Thumbnail label 2",
+    "thumbnail_detail": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non miporta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+  },
+  {
+    "thumbnail_id": "t003",
+    "thumbnail_img": "../rescources/images/thumbnails-3.png",
+    "thumbnail_url": "#",
+    "thumbnail_header": "Thumbnail label 3",
+    "thumbnail_detail": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non miporta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+  }
+],
+"news":[
+  {
+    "news_id": "n001",
+    "news_status": "new",
+    "news_detail": "Cras justo odio",
+    "news_url": "#"
+  },
+  {
+    "news_id": "n002",
+    "news_status": "old",
+    "news_detail": "Cras justo odio",
+    "news_url": "#"
+  },
+  {
+    "news_id": "n003",
+    "news_status": "old",
+    "news_detail": "Cras justo odio",
+    "news_url": "#"
+  },
+  {
+    "news_id": "n004",
+    "news_status": "old",
+    "news_detail": "Cras justo odio",
+    "news_url": "#"
+  },
+  {
+    "news_id": "n005",
+    "news_status": "old",
+    "news_detail": "Cras justo odio",
+    "news_url": "#"
+  }
+],
+"sidenavbar":[
+  {
+    "sidenavbar_id": "sn01",
+    "sidenavbar_detail": "关于我们",
+    "sidenavbar_target":"aboutus"
+  },
+  {
+    "sidenavbar_id": "sn02",
+    "sidenavbar_detail": "核心优势",
+    "sidenavbar_target":"preponderance"
+  },
+  {
+    "sidenavbar_id": "sn03",
+    "sidenavbar_detail": "成功案例",
+    "sidenavbar_target":"successfulcase"
+  },
+  {
+    "sidenavbar_id": "sn04",
+    "sidenavbar_detail": "商务合作",
+    "sidenavbar_target":"cooperations"
+  }
+  ],
+"messageslist":[
+  {
+    "messages_id": "m001",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m002",
+    "messages_title": "Dapibus ac facilisis in",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m003",
+    "messages_title": "Morbi leo risus",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m004",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m005",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m006",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m007",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m008",
+    "messages_title": "Dapibus ac facilisis in",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m009",
+    "messages_title": "Morbi leo risus",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m010",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m011",
+    "messages_title": "Dapibus ac facilisis in",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m012",
+    "messages_title": "Morbi leo risus",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m013",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m014",
+    "messages_title": "Dapibus ac facilisis in",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m015",
+    "messages_title": "Morbi leo risus",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m016",
+    "messages_title": "Cras justo odio",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m017",
+    "messages_title": "Dapibus ac facilisis in",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  },
+  {
+    "messages_id": "m018",
+    "messages_title": "Morbi leo risus",
+    "messages_date":"2017-9-12",
+    "messages_url":"#"
+  }
+  ]
+}
